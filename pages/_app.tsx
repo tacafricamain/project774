@@ -1,12 +1,16 @@
-import '../styles/Preloader.css'
-import '../styles/Optin.css'
-import '../styles/Timer.css'
 import '../styles/globals.css'
-import "../styles/style.css";
 import type { AppProps } from 'next/app'
+import Navbar from '../components/NavBar/NavBar'
+import Layout from '../components/Layout/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+    </>
+    )
 }
 
 export default MyApp

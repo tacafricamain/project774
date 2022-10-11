@@ -3,13 +3,14 @@
 body {
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   background-position: top top;
   background-size: cover;
   margin: 0;
 }
 
 .App {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -26,7 +27,7 @@ body {
 
 .container {
   width: 100%;
-  /* margin: 15% auto; */
+  /* margin: 5% auto; */
 }
 .col-4 {
   width: 25%;
