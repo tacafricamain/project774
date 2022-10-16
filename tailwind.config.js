@@ -15,8 +15,9 @@ module.exports = {
     backgroundImage: {
       'job': 'url("/project774/f2.jpg")',
       'enaira': 'url("/project774/h2.jpg")',
-      'tech': 'url("/project774/l2.jpg")'
-    }
+      'tech': 'url("/project774/l2.jpg")',
+      'desktopBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1665933793/my_folder/wetransfer_oct_2023/image00058_qbh9rs.jpg')",
+    },
   },
   },
   plugins: [],

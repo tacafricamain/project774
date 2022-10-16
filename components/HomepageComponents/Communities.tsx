@@ -13,13 +13,13 @@ export default function Communities(): JSX.Element {
     <div className='lg:h-screen bg-backgroundGrey flex justify-center items-center py-12'>
         <div className='flex flex-col lg:flex-row w-10/12 '>
             <div className='lg:w-6/12 space-y-8 flex flex-col h-full self-center justify-center'>
-                <h1 className='text-black text-2xl lg:text-4xl font-semibold '>Building up Communities <br className='hidden lg:block' /> that thrives on Innovation.</h1>
+                <h1 className='text-black text-2xl lg:text-4xl font-semibold '>Building up <span className='text-mainGreen'>Leaders </span><br className='hidden lg:block' /> that thrives on Innovation.</h1>
                 <p className='text-grayText'>Project 774 aims to spark interest and curiosity <br className='hidden lg:block' /> 
                 across all local governments of the Nigerian <br className='hidden lg:block' />  society thereby</p>
                 <ul className='space-y-4 text-grayText'>
                   <li className='inline-block'><Svg /> Increase adoption of the e-naira digital currency.</li>
                   <li className='inline-block'><Svg /> Create employment opportunities for digital jobs.</li>
-                  <li className='inline-block'><Svg /> Increase adoption of the e-naira digital currency.</li>
+                  <li className='inline-block'><Svg /> Increase Tech adoption .</li>
                 </ul>
             </div>
             <div className='w-6/12 m-auto h-full'>
