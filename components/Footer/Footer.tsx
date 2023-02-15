@@ -67,8 +67,8 @@ export default function Footer() : JSX.Element {
         <div className='flex flex-col lg:flex-row'  >
           {
             footerLinks.map(({heading, info, socials} : FooterLinkTypes, i ) =>  (
-              <div key={heading} className={`flex  ${heading == 'resources' ? 'lg:w-5/12' : 'lg:w-2/12'}`}>
-                  <div className='mb-4'>
+              <div key={heading} className={`flex  ${heading == 'resources' ? 'lg:w-5/12' : 'lg:w-2/12'} mx-auto`}>
+                  <div className='mb-4 space-y-4'>
                     <h4 className='font-semibold mb-2'>{heading}</h4>
                         {
                           info.map(( { name, link }: INFO ) => (<p className=' text-grayText' key={name}>{name}</p>))
@@ -82,8 +82,8 @@ export default function Footer() : JSX.Element {
         </div>
       </div>
           <div className=' mx-auto flex justify-center pb-12'>
-            <div className='w-8/12 flex justify-center border-t-2 pt-4'>
-              <span>All Rights Reserved</span><span>remotelocations.io</span>
+            <div className='w-8/12 flex justify-center border-t-2 pt-4 text-gray-500'>
+              <span>All Rights Reserved TAC Africa</span>
             </div>
           </div>
     </div>

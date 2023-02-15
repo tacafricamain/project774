@@ -7,7 +7,7 @@ export default function Audience() {
         <div className='lg:w-4/12 my-auto'>
             <img className='lg:h-[80%]  object-cover rounded-xl ' src="/project774/d1.jpg" alt="j" />
         </div>
-        <div className='lg:w-8/12 lg:h-[70%] mt-6 lg:my-auto'>
+        <div className='lg:w-8/12 lg:h-[70%] py-4'>
             <div className='lg:my-10 lg:w-9/12'>
                 <h2 className='text-2xl font-semibold mb-4'>Targeting the right audience and populace</h2>
                 <p className='text-grayText'>Starting out in Abuja, we want to reach the right people.</p>
