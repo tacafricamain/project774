@@ -23,7 +23,7 @@ export default function Benefits() {
             In reality, project 774 ushers in endless <br /> benefits to the
             economy and the people <br /> as we keep evolving.
           </h2>
-          <p className="text-grayText">
+          <p className="text-grayText font-light leading-6">
             {`It's certain, that with all we envision as regards to empowering `}
             <br />
             {`and stemming innovative youths, we'll reap bountifully.`}
@@ -32,7 +32,7 @@ export default function Benefits() {
         <div className="flex flex-col space-y-6 mt-6 md:mt-0">
           <ul className="text-grayText flex w-full flex-wrap gap-8 ml-6">
             <div className="max-w-sm basis-80">
-              <li className="flex items-center justify-center">
+              <li className="flex items-center justify-center font-light leading-6">
                 <img
                   className="inline w-2 mr-4"
                   src="/project774/e.jpg"
@@ -43,7 +43,7 @@ export default function Benefits() {
               </li>
             </div>
             <div className="max-w-sm basis-80">
-              <li className="flex items-center justify-center">
+              <li className="flex items-center justify-center font-light leading-6">
                 <img
                   className="inline w-2 mr-4"
                   src="/project774/e.jpg"
@@ -54,7 +54,7 @@ export default function Benefits() {
               </li>
             </div>
             <div className="max-w-sm basis-80">
-              <li className="flex items-center justify-center">
+              <li className="flex items-center justify-center font-light leading-6">
                 <img
                   className="inline w-2 mr-4"
                   src="/project774/e.jpg"
@@ -64,7 +64,7 @@ export default function Benefits() {
               </li>
             </div>
             <div className="max-w-sm basis-80">
-              <li className="flex items-center justify-center">
+              <li className="flex items-center justify-center font-light leading-6">
                 {" "}
                 <img
                   className="inline w-2 mr-4"

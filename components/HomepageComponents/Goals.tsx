@@ -14,7 +14,7 @@ export default function Goals() {
         </p>
       </div>
       {/* largeScreens */}
-      <div className="hidden lg:flex flex-col lg:flex-row lg:h-[600px] overflow-hidden">
+      <div className="hidden lg:flex flex-col lg:flex-row overflow-hidden">
         <div className="w-1/3 relative bg-gradient-to-b from-gray-500 to-gray-900 py-24">
           <div className="grid place-items-center space-y-6 px-4">
             <img
