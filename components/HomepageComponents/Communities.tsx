@@ -28,7 +28,7 @@ export default function Communities(): JSX.Element {
             Building up <span className="text-mainGreen">Leaders </span>
             <br className="hidden lg:block" /> that thrives on Innovation.
           </h1>
-          <p className="font-thin leading-6 text-white">
+          <p className="font-thin leading-6 text-black">
             Project 774 aims to spark interest and curiosity{" "}
             <br className="hidden lg:block" />
             across all local governments of the Nigerian{" "}
@@ -37,18 +37,19 @@ export default function Communities(): JSX.Element {
           <ul className="space-y-4 text-grayText">
             <li className="block font-thin leading-6">
               <Svg />{" "}
-              <span className="ml-2 text-white">
+              <span className="ml-2 text-black">
                 Increase adoption of the e-naira digital currency.
               </span>
             </li>
             <li className="block font-thin leading-6">
               <Svg />{" "}
-              <span className="ml-2 text-white">
+              <span className="ml-2 text-black">
                 Create employment opportunities for digital jobs.
               </span>
             </li>
             <li className="block font-thin leading-6">
-              <Svg /> <span className="ml-2 text-white">Increase Tech adoption .</span>
+              <Svg />{" "}
+              <span className="ml-2 text-black">Increase Tech adoption .</span>
             </li>
           </ul>
         </div>

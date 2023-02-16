@@ -69,7 +69,7 @@ export default function Footer() : JSX.Element {
             footerLinks.map(({heading, info, socials} : FooterLinkTypes, i ) =>  (
               <div key={heading} className={`flex  ${heading == 'resources' ? 'lg:w-5/12' : 'lg:w-2/12'} mx-auto`}>
                   <div className='mb-4 space-y-4'>
-                    <h4 className='font-semibold mb-2'>{heading}</h4>
+                    <h4 className='font-semibold mb-2 text-black'>{heading}</h4>
                         {
                           info.map(( { name, link }: INFO ) => (<p className=' text-grayText' key={name}>{name}</p>))
                         }
