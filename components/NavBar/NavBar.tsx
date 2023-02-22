@@ -58,7 +58,7 @@ export default function Navbar(): JSX.Element {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul key={1} className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 {
                     navLinks.map(({ text, link, type} : NavLinkProps) => type == 'link' ? 
                         <li key={text} className="nav-item my-auto">
