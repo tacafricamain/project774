@@ -5,7 +5,7 @@ export default function Audience() {
   return (
     <div className='w-9/12 lg:h-screen mx-auto flex flex-col lg:flex-row my-16 lg:my-0 lg:space-x-16'>
         <div className='lg:w-4/12 my-auto'>
-            <img className='lg:h-[80%]  object-cover rounded-xl ' src="/project774/d1.jpg" alt="j" />
+            <img className='lg:h-[80%]  object-cover rounded-xl ' src="https://res.cloudinary.com/tacafrica/image/upload/v1665999386/my_folder/wetransfer_oct_2023/image00096_tr4och.jpg" alt="j" />
         </div>
         <div className='lg:w-8/12 lg:h-[70%] py-4'>
             <div className='lg:my-10 lg:w-9/12'>

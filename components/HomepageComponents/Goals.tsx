@@ -34,7 +34,7 @@ export default function Goals() {
               The project will equip youths with practical skills that would
               enable them to create jobs for themselves and others. Moreso,
               implementation of this project in various communities will result
-              in job opportunities for it's residents. The goal is to provide
+              in job opportunities for {`it's`} residents. The goal is to provide
               1,000,000 full-time jobs and 2,500,000 part-time jobs
             </span>
           </div>
@@ -57,7 +57,7 @@ export default function Goals() {
             <span className="text-sm font-light leading-6 text-center text-white">
               Many persons are not aware of the E-Naira, what it is and how it
               can be used. The project will address this by creating awareness
-              of it and thereafter it's adoption. knowledge of the E-Naira will
+              of it and thereafter {`it's`} adoption. knowledge of the E-Naira will
               be embedded in our courses which will ease the process.
             </span>
           </div>
