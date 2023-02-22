@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const index: NextPage = () => {
+const News: NextPage = () => {
   return (
     <div className="w-full bg-gradient-to-br from-blue-300 to-slate-100">
       <div className="w-10/12 mx-auto space-y-6 pt-36">
@@ -48,4 +48,4 @@ const index: NextPage = () => {
   );
 };
 
-export default index;
+export default News;
