@@ -12,8 +12,8 @@ export default function HeroSection() {
       <div className='flex flex-col-reverse lg:flex-row h-screen'>
         <div className='lg:w-6/12 space-y-8 my-auto'>
           <h1 className='text-white text-3xl lg:text-5xl font-semibold '>Digital Transformation <br className='hidden lg:block' /> To Remote Locations</h1>
-          <p className='text-white'>
-          Create an integrated and inclusive Digital <br /> Society that improves the quality of <br /> life of Nigerian citizens in rural communities. 
+          <p className='text-white font-light leading-8'>
+          Create an integrated and inclusive Digital Society that improves the quality of life of Nigerian citizens in rural communities. 
           </p>
 
           <div>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa"
 import Button from "../Button/Button";
@@ -57,7 +58,7 @@ export default function Navbar(): JSX.Element {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            {/* <ul  className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 {
                     navLinks.map(({ text, link, type} : NavLinkProps) => type == 'link' ? 
                         <li key={text} className="nav-item my-auto">
@@ -72,7 +73,7 @@ export default function Navbar(): JSX.Element {
                        :  <Button text={text} /> 
                     )
                 }
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>
