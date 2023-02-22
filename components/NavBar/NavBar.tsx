@@ -58,10 +58,10 @@ export default function Navbar(): JSX.Element {
             }
             id="example-navbar-danger"
           >
-            {/* <ul  className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul  className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 {
                     navLinks.map(({ text, link, type} : NavLinkProps) => type == 'link' ? 
-                        <li key={text} className="nav-item my-auto">
+                        (<li key={text} className="nav-item my-auto">
                           <Link href={link}>
                             <a
                               className="px-8 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black hover:opacity-75" 
@@ -69,11 +69,11 @@ export default function Navbar(): JSX.Element {
                             <span className="ml- text-lg font-normal">{text}</span>
                             </a>
                           </Link>
-                        </li>
-                       :  <Button text={text} /> 
+                        </li>)
+                       :  (<Button text={text} />) 
                     )
                 }
-            </ul> */}
+            </ul>
           </div>
         </div>
       </nav>
