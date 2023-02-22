@@ -23,7 +23,7 @@ export default function Communities(): JSX.Element {
                 </ul>
             </div>
             <div className='w-6/12 m-auto h-full'>
-              <img className='mx-auto rounded-xl' src="i.png" alt="p" />
+              <img className='mx-auto rounded-xl' src="https://res.cloudinary.com/tacafrica/image/upload/v1665999967/my_folder/wetransfer_oct_2023/image00083_snui4z.jpg" alt="p" />
             </div>
         </div>
   </div>

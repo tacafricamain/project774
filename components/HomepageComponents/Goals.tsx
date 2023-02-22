@@ -11,7 +11,7 @@ export default function Goals() {
         </div>
         {/* largeScreens */}
         <div className='hidden lg:flex flex-col lg:flex-row lg:h-[600px] overflow-hidden' >
-            <div className='lg:w-4/12 bg-fixed bg-center bg-contain bg-job'>
+            <div className='lg:w-4/12 bg-fixed bg-center bg-cover bg-goals_job'>
                 <div className=' top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group14.svg" alt="icon" />
@@ -24,7 +24,7 @@ export default function Goals() {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-4/12 bg-fixed bg-center bg-contain bg-enaira'>
+            <div className='lg:w-4/12 bg-fixed bg-center bg-contain bg-goals_enaira'>
             <div className=' top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group17.svg" alt="icon" />
@@ -35,7 +35,7 @@ export default function Goals() {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-4/12 bg-fixed bg-center bg-contain bg-tech'>
+            <div className='lg:w-4/12 bg-fixed bg-center bg-contain bg-goals_tech'>
             <div className=' top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group16.svg" alt="icon" />
@@ -50,7 +50,7 @@ export default function Goals() {
         </div>
         {/* mobile */}
          <div className='overlappingGallery lg:hidden' >
-            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-center bg-cover bg-job'>
+            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-no-repeat bg-cover bg-center bg-goal_job'>
                 <div className='absolute top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group14.svg" alt="icon" />
@@ -63,7 +63,7 @@ export default function Goals() {
                     </div>
                 </div>
             </div>
-            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-center bg-cover bg-enaira'>
+            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-center bg-cover bg-goal_enaira'>
                 <div className='absolute top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group17.svg" alt="icon" />
@@ -74,7 +74,7 @@ export default function Goals() {
                     </div>
                 </div>
             </div>
-            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-center bg-cover bg-tech'>
+            <div className='overlappingGalleryImg overflow-hidden bg-fixed bg-center bg-cover bg-goal_tech'>
                 <div className='absolute top-0 left-0 w-full h-screen flex flex-col justify-end ' style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                     <div className='md:mr-8 w-10/12 mx-auto mb-40'>
                         <img className='w-12 h-12 mb-6' src="/project774/Group16.svg" alt="icon" />
