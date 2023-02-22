@@ -70,7 +70,7 @@ export default function Navbar(): JSX.Element {
                             </a>
                           </Link>
                         </li>)
-                       :  (<Button text={text} />) 
+                       :  (<Button key={text} text={text} />) 
                     )
                 }
             </ul>
