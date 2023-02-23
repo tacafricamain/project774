@@ -28,14 +28,14 @@ a {
   /* overflow: hidden; */
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
   }
-}
+} */
 
 .gradientBGG {
   background: transparent linear-gradient(337deg, #FFFFFF00 0%, #dae6e0 80%, #dae6e0 80%) 0% 0% no-repeat;

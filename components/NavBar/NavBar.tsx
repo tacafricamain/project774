@@ -17,13 +17,13 @@ type NavLinkProps = {
 
 
 const navLinks = [
-    {text: 'The Issue', link: '/contact', type: 'link'},
-    {text: 'Mission & Vision', link: '/contact', type: 'link'},
-    {text: 'Our Team', link: '/contact', type: 'link'},
-    {text: 'Get Involved', link: '/contact', type: 'link'},
+    // {text: 'The Issue', link: '/contact', type: 'link'},
+    // {text: 'Mission & Vision', link: '/contact', type: 'link'},
+    // {text: 'Our Team', link: '/contact', type: 'link'},
+    // {text: 'Get Involved', link: '/contact', type: 'link'},
+    // {text: 'Blog', link: '#', type: 'link'},
     {text: 'About Us', link: '/about', type: 'link'},
     {text: 'Get in Touch', link: '/contact', type: 'link'},
-    // {text: 'Blog', link: '#', type: 'link'},
     {text: 'Donate', link: '#', type: 'Button'},
 ]
 
@@ -64,7 +64,7 @@ export default function Navbar(): JSX.Element {
                         (<li key={text} className="nav-item my-auto">
                           <Link href={link}>
                             <a
-                              className="px-8 py-2 flex items-center justify-center text-xs font-bold leading-snug text-white hover:opacity-75" 
+                              className="px-8 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black hover:opacity-75" 
                             >
                             <span className="ml- text-lg font-normal">{text}</span>
                             </a>
