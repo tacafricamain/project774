@@ -57,13 +57,13 @@ export default function Navbar(): JSX.Element {
             }
             id="example-navbar-danger"
           >
-            <ul  className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul  className="flex flex-col lg:flex-row list-none lg:ml-auto w-full p-2 max-md:p-12 bg-white">
                 {
                     navLinks.map(({ text, link, type} : NavLinkProps) => type == 'link' ? 
                         (<li key={text} className="nav-item my-auto">
                           <Link href={link}>
                             <a
-                              className="px-8 py-2 flex items-center justify-center text-xs font-bold leading-snug text-white hover:opacity-75" 
+                              className="px-8 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black text-center hover:opacity-75" onClick={() => setNavbarOpen(!navbarOpen)}
                             >
                             <span className="ml- text-lg font-normal">{text}</span>
                             </a>
