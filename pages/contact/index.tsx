@@ -4,7 +4,7 @@ const Contact: NextPage = () => {
   return (
     <div className="w-full bg-gradient-to-br from-blue-300 to-slate-100">
       <div className="w-10/12 mx-auto py-28">
-        <div className="w-3/6 flex flex-col space-y-6 mb-12">
+        <div className="w-3/6 max-md:w-full flex flex-col space-y-6 mb-12">
           <span className="text-4xl font-semibold text-black">
             Opps! {`We're`} not Done!
           </span>
