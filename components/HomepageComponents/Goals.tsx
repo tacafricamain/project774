@@ -4,8 +4,8 @@ import React from 'react'
 export default function Goals() {
   return (
     <div className="">
-      <div className="text-center my-16">
-        <h3 className="text-white text-2xl font-semibold mb-4">
+      <div className="text-center my-16 px-1">
+        <h3 className="text-white text-xl font-semibold mb-4 leading-10">
           Key goals Project 774 accomplishes whilst transforming <br />
           Nigeria into a Fully Digital Habitat Ecosystem
         </h3>

@@ -23,8 +23,8 @@ const Svg = () => {
 export default function Communities(): JSX.Element {
   return (
     <div className="lg:h-screen bg-backgroundGrey flex justify-center items-center py-12">
-      <div className="flex flex-col lg:flex-row w-10/12 ">
-        <div className="lg:w-6/12 space-y-8 flex flex-col h-full self-center justify-center">
+      <div className="flex flex-col lg:flex-row w-10/12">
+        <div className="lg:w-6/12 space-y-8 flex flex-col h-full self-center justify-center md:mb-6">
           <h1 className="text-black text-2xl lg:text-4xl font-semibold ">
             Building up <span className="text-mainGreen">Leaders </span>
             <br className="hidden lg:block" /> that thrives on Innovation.
@@ -54,8 +54,8 @@ export default function Communities(): JSX.Element {
             </li>
           </ul>
         </div>
-        <div className="w-6/12 m-auto h-full">
-          <img className="mx-auto rounded-xl" src="i.png" alt="p" />
+        <div className="w-6/12 max-md:w-11/12 m-auto max-md:mt-12 h-full">
+          <img className="max-md:w-full mx-auto rounded-xl" src="i.png" alt="p" />
         </div>
       </div>
     </div>

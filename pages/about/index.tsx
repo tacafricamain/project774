@@ -13,7 +13,7 @@ const index: NextPage = () => {
           </span>
         </div>
         <div className="w-full h-56 bg-gray-400 object-contain rounded-xl"></div>
-        <div className="flex gap-4 w-10/12 mx-auto py-12 justify-between">
+        <div className="flex gap-4 w-10/12 max-md:w-full mx-auto py-12 justify-between">
           <span className="w-1/6 text-base font-light text-gray-500">
             Written by <br />
             Blessing

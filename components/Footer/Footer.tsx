@@ -65,7 +65,7 @@ export default function Footer() : JSX.Element {
             <Button text={"Submit Your Email"} />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row max-lg:block">
           {footerLinks.map(({ heading, info, socials }: FooterLinkTypes, i) => (
             <div
               key={heading}
