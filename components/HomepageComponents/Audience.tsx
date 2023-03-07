@@ -30,8 +30,7 @@ export default function Audience() {
               />
               <h3 className="my-2 font-semibold">774 Local Governments</h3>
               <p className="text-sm text-grayText font-light leading-6">
-                Project 774 aims to spark interest and curiosity across all
-                local governments of the Nigerian society.
+              Project 774 aims to harness digital technologies and innovation in order to transform remote communities and to promote inclusive economic growth, stimulate job creation, erase the digital divide and eradicate poverty.
               </p>
             </div>
             <div className="md:mr-8">
@@ -42,8 +41,7 @@ export default function Audience() {
               />
               <h3 className="my-2 font-semibold">1,167,000+ Youths</h3>
               <p className="text-sm text-grayText font-light leading-6">
-                Project 774 aims to spark interest and curiosity across all
-                local governments of the Nigerian society.
+              The Youths are the target of this project. By introducing Digital literacy and sports to the youths, we hope to engage them with profitable skills and reduce the rate of cybercrime, Drug abuse and other vices.
               </p>
             </div>
           </div>
@@ -56,8 +54,7 @@ export default function Audience() {
               />
               <h3 className="my-2 font-semibold">300+ Vocational Schools</h3>
               <p className="text-sm text-grayText font-light leading-6">
-                Project 774 aims to spark interest and curiosity across all
-                local governments of the Nigerian society.
+              Our training at our different vocational centers are geared towards providing learners with essential skills, enhancing their employability and supporting their personal development, thereby encouraging Innovation. 
               </p>
             </div>
             <div className="md:mr-8">
@@ -68,8 +65,7 @@ export default function Audience() {
               />
               <h3 className="my-2 font-semibold">600 Public Schools</h3>
               <p className="text-sm text-grayText font-light leading-6">
-                Project 774 aims to spark interest and curiosity across all
-                local governments of the Nigerian society.
+              Over 600 million children and adolescents worldwide are unable to attain minimum proficiency levels in reading and digital literacy. Our target is to reach 600 public schools in the next few years.
               </p>
             </div>
           </div>
