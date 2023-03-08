@@ -16,9 +16,9 @@ type NavLinkProps = {
 
 const navLinks = [
   { text: "The Issue", link: "/the_issue", type: "link" },
-  { text: "Mission & Vision", link: "/contact", type: "link" },
-  { text: "Our Team", link: "/contact", type: "link" },
-  { text: "Get Involved", link: "/contact", type: "link" },
+  { text: "Mission & Vision", link: "/mission", type: "link" },
+  { text: "Our Team", link: "/team", type: "link" },
+  { text: "Get Involved", link: "/get_involved", type: "link" },
   { text: "About Us", link: "/about", type: "link" },
   { text: "Get in Touch", link: "/contact", type: "link" },
   // {text: 'Blog', link: '#', type: 'link'},
