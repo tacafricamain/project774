@@ -22,7 +22,7 @@ const navLinks = [
   { text: "About Us", link: "/about", type: "link" },
   { text: "Get in Touch", link: "/contact", type: "link" },
   // {text: 'Blog', link: '#', type: 'link'},
-  { text: "Donate", link: "#", type: "Button" },
+  { text: "Blog", link: "#", type: "Button" },
 ];
 
 export default function Navbar(): JSX.Element {
