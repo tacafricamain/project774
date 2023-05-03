@@ -5,7 +5,7 @@ export default function Goals() {
   return (
     <div className="">
       <div className="text-center my-16 px-1">
-        <h3 className="text-white text-xl font-semibold mb-4 leading-10">
+        <h3 className=" text-xl font-semibold mb-4 leading-10">
           Key goals Project 774 accomplishes whilst transforming <br />
           Nigeria into a Fully Digital Habitat Ecosystem
         </h3>
@@ -27,10 +27,10 @@ export default function Goals() {
               src="/project774/Group14.svg"
               alt="icon"
             />
-            <span className="text-xl font-semibold">
+            <span className="text-xl font-semibold text-white">
               Increased Job Opportunities
             </span>
-            <span className="text-sm font-light leading-6 text-center text-white">
+            <span className="text-sm font-semibold leading-6 text-center text-white">
               The project will equip youths with practical skills that would
               enable them to create jobs for themselves and others. Moreso,
               implementation of this project in various communities will result
@@ -51,10 +51,10 @@ export default function Goals() {
               src="/project774/Group17.svg"
               alt="icon"
             />
-            <span className="text-xl font-semibold">
+            <span className="text-xl font-semibold text-white">
               Increased eNaira Adoption
             </span>
-            <span className="text-sm font-light leading-6 text-center text-white">
+            <span className="text-sm  font-semibold leading-6 text-center text-white">
               Many persons are not aware of the E-Naira, what it is and how it
               can be used. The project will address this by creating awareness
               of it and thereafter {`it's`} adoption. knowledge of the E-Naira will
@@ -74,10 +74,10 @@ export default function Goals() {
               src="/project774/Group16.svg"
               alt="icon"
             />
-            <span className="text-xl font-semibold">
+            <span className="text-xl font-semibold text-white">
               Increased Tech Adoption
             </span>
-            <span className="text-sm font-light leading-6 text-center text-white">
+            <span className="text-sm leading-6 text-center text-white  font-semibold">
               All our courses at our Digital Hubs are tech related as well as
               practical based. Hence, implementation of project 774 will
               accelerate technology adoption from the grassroots. This in turn,
@@ -100,7 +100,7 @@ export default function Goals() {
                 src="/project774/Group14.svg"
                 alt="icon"
               />
-              <h3 className="my-2 font-semibold text-white text-4xl mb-4">
+              <h3 className="my-2 font-semibold text-white text-4xl mb-4 ">
                 Increased Job Opportunities
               </h3>
               <p className="text-white text-xl">{`The project will equip youths with 
@@ -145,7 +145,7 @@ export default function Goals() {
               <h3 className="my-2 font-semibold text-white text-2xl mb-4">
                 Increased Tech Adoption
               </h3>
-              <p className="text-white text-sm">
+              <p className="text-white text-sm font-semibold">
                 All our courses at our Digital Hubs are tech related as well as
                 practical based. Hence, implementation of project 774 will
                 accelerate technology adoption from the grassroots. This in
